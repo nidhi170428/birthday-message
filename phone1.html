@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f7e1d7;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #ff6f61;
+        }
+        .content {
+            margin: 20px;
+            padding: 15px;
+            border: 2px solid #ff6f61;
+            border-radius: 10px;
+            background-color: #fff;
+            text-align: left;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #ff6f61;
+            font-size: 18px;
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px;
+            border: 2px solid #ff6f61;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page 1 -->
+<div class="content" id="page1">
+    <h1>Its your birthdayy yayy!!! ❤</h1>
+    <p>Happy Birthday to you!!! 🎉🎂</p>
+    <a href="javascript:void(0);" onclick="showPage(2)">Next Page</a>
+</div>
+
+<!-- Page 2 -->
+<div class="content hidden" id="page2">
+    <h1>Happiesttt Birthdayyy My Omlettt 🎀✨</h1>
+    <p>Happiestttt birthdayyyyyy myyy dearrrr omeletttttt......I loveee youuuu sooo muchhhhhh!!!</p>
+    <p>I hope aap hamesha khush rho or sabko kush rkho (specially me) or or bhagwan kre aapki yaadash achi hojaye😭 aap or jyada ache bano par sirf mere liye🤭 baki sab to perfect hai hi....I'm very gladd ki mein apni life mein aap jaise insaan se mili you are the perfect one! You just came into my life like a miracle... With you even the wrong things feels right to me, you are so special to me!! Every part of me loves every part of you✨</p>
+    <a href="javascript:void(0);" onclick="showPage(3)">Next Page</a>
+</div>
+
+<!-- Page 3 -->
+<div class="content hidden" id="page3">
+    <h1>Happiesttt Birthdayyyyyy myyy dearrrr omeletttttt...</h1>
+    <p>Whenever I see you my heart races like it'll come out the next sec, I forget how to breathe...sometimes you even leave me breathless and this is for realll I swear!!!!</p>
+    <p>Ek bhi aisa din, min, sec nhi hai jab apke bare mein na socha ho... You have the most prettiest eyes deep as ocean, smile, laugh, voice I can listen 24/7, hair, style, your personality, your heart, your cuteness I love everything about youu...Amazing in every single wayy!!! Sab perfecttt se bhi jyada perfect hai itnee ki I could stare at you forever..🧿I bet if someone ever got a chance to talk to you, know you the way I do will definitely fall for you!!</p>
+    <p>Whenever I talk with you I instantly feel good all my worries just fade away like they never existed, You make everyday a better one... Talking to you feels like a blessing to me. I always wondered ki itna achaa bandaaa kaiseeee mila I promise jab sab sahi hoga set hoga tab apka har ek b'day memorable banane ki zimmedari meri abhi to nhi kr skti ofc really very sorry about that😭</p>
+    <p>Socha tha ki life mein acha ladka ayega pr itnaaaaaaaaaaaa achaa itnaaa sahiiii ye nhi socha tha 😭❤ Aap jaisa feel krate ho aaj tak kisi ne nhi kraya or na hi koi or kra payega....My happiness, the reason for my smile, the butterflies, heart fluttering and every single thing you do affects me in its own way! ❤</p>
+    <a href="javascript:void(0);" onclick="showPage(4)">Next Page</a>
+</div>
+
+<!-- Page 4 -->
+<div class="content hidden" id="page4">
+    <h1>I lovee youu </h1>
+    <p>I fight...you fix...we stay...😋 Apke bare mein jitna likhu kam hai kyuki aap ho hi itne mast ekdam meri tarah hehehe..I want to do every single thing with you which is possible haa impossible bhi kr skte hai agr aap bolo to💋I want to laugh with you on your happy days, cry with you and stay with you...I love you and I always will!!</p>
+    <p>I want to be by your side my whole life....The only thing that makes me truly happy is youu only you...You're my happiness, my everything!! My day starts by the thought of you and ends with the same! You are the story that I never want to end!❤</p>
+    <p>Andd youuu knowwww whatttt I AM ADDICTED TO YOUR VOICEEEE!!!! Haa not only your voicee I am fully totally, intentionally, emotionally mentally, physically, mathematically, naturally obsessed with you!! Aaj tak aisa ek bhi voice note nhi hai jo maine 15 baar na suna ho... Your voice heals me...You're the first ever person to give me butterflies infact the whole zoo in my stomach! You are more in me than me!!</p>
+    <p>You are my man only mine! You know even the thought of you makes me smile like an idiot! I want to be the reason for your happiness your smile. I really love you, every piece of my heart only belongs to you!!</p>
+    <p>I just wanna tell you my heart only belongs to you!! I love you much more than you think and I will continue to love you till my last breath, in every world, in every universe...Youu aree thee mostt beautiful reality of my lifee💕</p>
+    <p>Happiest birthdayy myy omlettt🤭 I love you!!💋</p>
+    <a href="#">End of Pages</a>
+</div>
+
+<script>
+    function showPage(pageNumber) {
+        // Hide all pages
+        for (let i = 1; i <= 4; i++) {
+            document.getElementById('page' + i).classList.add('hidden');
+        }
+        // Show the selected page
+        document.getElementById('page' + pageNumber).classList.remove('hidden');
+    }
+</script>
+
+</body>
+</html>
